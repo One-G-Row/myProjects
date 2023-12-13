@@ -1,0 +1,63 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+form{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: green;
+}
+fieldset{
+    margin-top: 50px;
+    width: 50%;
+    height: 70vh;
+    border: 1px solid green;
+    border-radius: 5px;
+    
+}
+#header{
+    text-align: center;
+}
+button{
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    background: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+#start-one{  
+    margin-left: 20px;
+}
+#stop-one{
+    margin-left: 120px;
+}
+#timeTaken{
+    padding-left: 40px;
+}
+#logTime{
+    width: 120px;
+    margin-left: 220px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+#sum-total{
+    margin-left: 240px;
+}
+#starts, #stops{
+    margin-left: 25px;
+    padding-left: 20px;
+    border: 1px solid green;
+    border-radius: 2px;
+    width: 80px;
+    height: 25px;
+    font-weight: bold;
+    color: green;
+}
+#sum{
+padding-left: 40px;
+padding-top: 10px;
+}
